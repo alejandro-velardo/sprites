@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+  margin: 0;
+  padding:0;
+  background-color: rgb(221, 255, 255);
+
+}
+
+.container {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.container h1{
+  color: rgb(116, 116, 116)
+}
+
+.container .commands {
+  display: flex;
+  align-items: center;
+  margin: 15px;
+}
+
+.container .commands input[type=color] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.container .commands input[type=color]::-webkit-color-swatch {
+  border-radius: 3px;
+  border: none;
+
+}
+.container .commands input[type=color]::-moz-color-swatch {
+  border-radius: 3px;
+  border: none;
+}
+
+#clean-button {
+  border: 1px solid rgb(176, 176, 255);
+  border-radius: 3px;
+  padding: 3px;
+  background-color: rgb(220, 220, 255);
+  cursor: pointer;
+  height: 30px;
+  color: rgb(116, 116, 116);
+  margin-left: 10px;
+}
+
+.canvas{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  background-color: rgb(255, 226, 95);
+  margin: 2px;
+  display: block;
+  width: 20px;
+  height: 20px;
+}
