@@ -4,7 +4,7 @@ A color can be selected in the input field and, when the squares of the canvass 
 
 When the clean button is clicked, the whole canvass will be painted of the color selected in that moment. 
 
-To run this small app simply install de dependencies:
+To run this small app install de dependencies:
 
 npm install
 
